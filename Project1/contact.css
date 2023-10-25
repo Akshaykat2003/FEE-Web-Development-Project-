@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+nav{
+    height:80px;
+    background: url(./images/pic14.jpg),no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    position: relative;
+
+
+}
+
+nav .logo
+{
+font-size: 50px;
+color: orange;
+font-weight: 600;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0px 23px;
+
+}
+
+nav ul li a{
+    color: rgb(239, 236, 236);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    padding:6px 8px;
+    border-radius: 3px;
+
+    
+}
+nav ul li a:hover,
+nav ul li a.Active{
+    background:rgb(226, 156, 77);
+    color: white;
+
+}
+section {
+    padding: 40px 15%;
+
+    background: rgb(0, 0, 0);
+
+
+}
+
+
+
+
+
+
+
+.contact {
+    background: rgba(7, 0, 13, 0.886);
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    grid-gap: 6rem;
+   
+    
+
+}
+
+.contact-img img {
+    max-width: 100%;
+    width: 130%;
+    height: 680px;
+    padding-right: 30px;
+    border-radius: 2px;
+
+}
+
+.contact-form h1 {
+    font-size: 90px;
+    font-weight: 700;
+    color: #f30c0c;
+    margin-bottom: auto;
+    
+
+
+}
+
+span {
+    color: #0eede2;
+    font-weight: 700px;
+}
+
+.contact-form p {
+    color: #c6c9d8bf;
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 1.1rem;
+    margin-bottom: 3.8rem;
+    padding-left: 20px;
+}
+
+.contact-form form {
+    position: relative;
+    left:20px;
+
+}
+
+.contact-form form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+
+
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-form form .btn {
+    display: inline-block;
+    background: red;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 220px;
+    transition: ease .20s;
+
+    cursor: pointer;
+
+
+}
+
+.contact-form form .btn:hover {
+    border: 2px solid white;
+    background: transparent;
+    transition: scale(1.1);
+}
+
+
+
+
+footer{
+    background-color: black;
+
+    
+}
+.footerContainer{
+    width:100%;
+    padding:2px 3px  2px;
+}
+
+.socialIcons{
+    display:flex;
+    justify-content:center;
+
+
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding:10px;
+    background-color:white;
+    margin:10px;
+    border-radius:50%;
+}
+
+.socialIcons a{
+    font-size:2em;
+    color:black;
+    opacity:0.9;
+
+}
+
+
+.socialIcons a:hover{
+    background-color:rgb(9, 106, 241);
+    transition:0.5s;
+
+}
+
+.socialIcons a i{
+    color:rgb(27, 26, 26);
+    transition:0.5s;
+
+}
+
+.footerNav{
+    margin:30px 0;
+}
+
+.footerNav ul{
+ display:flex;
+ justify-content:center;
+}
+
+.footerNav ul li a{
+    color:white;
+    margin:20px;
+    text-decoration: none;
+    font-size:1.3em;
+    opacity:0.7;
+    transition:0.5s;
+}
+
+.footer ul li a:hover{
+    opacity:1;
+}
+
+.footerBottom{
+    background-color:black;
+    padding:20px;
+    text-align:center;
+
+}
+
+.footerBottom p{
+    color:white;
+}
+
+.designer{
+    opacity:0.7;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    font-weight:400;
+    margin:0px 5px;
+}

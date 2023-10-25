@@ -1,0 +1,129 @@
+
+/* Additional styles for payment page */
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  height: 80px;
+  background: url(./images/pic14.jpg), no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px 0px 50px;
+  position: relative;
+}
+
+nav .logo {
+  font-size: 50px;
+  color: orange;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0px 10px;
+}
+
+nav ul li a {
+  color: rgb(239, 236, 236);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  padding: 6px 8px;
+  border-radius: 3px;
+}
+
+.cart {
+  pointer-events: none;
+  cursor: pointer;
+  padding-top: 2px;
+}
+
+nav ul li a:hover,
+nav ul li a.Active {
+  background: rgb(226, 156, 77);
+  color: white;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 0.1rem;
+}
+
+.payment-form {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  background: rgb(251, 250, 250);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.payment-form h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  background-color: #f60559;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #c3321a;
+}
+
+.cart-notification {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  background-color: #eb990c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}

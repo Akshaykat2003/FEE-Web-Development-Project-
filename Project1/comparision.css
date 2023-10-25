@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+
+body{
+    background-color: rgb(247, 251, 250);
+}
+
+.table{
+    background-color:rgb(180, 193, 249);
+}
+
+body h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(13, 2, 24);
+
+}
